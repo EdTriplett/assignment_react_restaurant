@@ -6,22 +6,22 @@ class Header extends React.Component {
 
     return (
       <div>
-        <div class="jumbotron">
-          <h3>
+        <div className="jumbotron justify-content-center">
+          <h2>
             {title}
-          </h3>
+          </h2>
           <p>
             {subtitle}
           </p>
         </div>
-        <div className="d-flex justify-content-center">
+        
           <img
             src="noSpoon.jpg"
-            width="800px"
+            
             className="img-responsive"
             alt="matrix-spoon"
           />
-        </div>
+        
       </div>
     );
   }

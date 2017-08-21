@@ -32,9 +32,10 @@ class Menu extends React.Component {
     //    const {name, description, price} = this.props
     return (
       <div className="menu" id="Menu">
+        <h3> Our Menu </h3>
         <ul className="list-group">
           {menuItems.map(item =>
-            <li>
+            <li className="list-group-item">
               <br />
               {item.name}: <br />
               {item.description}
