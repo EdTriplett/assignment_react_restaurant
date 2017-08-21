@@ -19,15 +19,15 @@ const FormGroup = ({ type, placeholder }) => {
 class Form extends React.Component {
   render() {
     return (
-      <div className="row">
+      <div className="reservation" id="reservation">
         <div className="col-md-8">
           <form>
             <FormGroup type="text" placeholder="First Name" />
             <FormGroup type="text" placeholder="Last Name" />
             <FormGroup type="email" placeholder="Email" />
             <FormGroup type="tel" placeholder="Telephone Number" />
-            <FormGroup type="datetime-local" placeholder="" />
-            <FormGroup type="datetime-local" placeholder="" />
+            <FormGroup type="date" placeholder="" />
+            <FormGroup type="time" placeholder="" />
             <Button color="success" message="Submit Reservation" />
           </form>
         </div>
