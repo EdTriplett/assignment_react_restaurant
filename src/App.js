@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <Nav />
-        <Header />
+        <Header title="Urban Spoon Soup Kitchen" subtitle="your home away from home for fine dining" />
       </div>
     );
   }
