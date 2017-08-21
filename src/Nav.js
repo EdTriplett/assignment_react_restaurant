@@ -1,15 +1,14 @@
 import React from "react";
-import Link from "./Link.js"
-
+import Link from "./Link.js";
 
 class Nav extends React.Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-light">
+        <nav className="navbar navbar-inverse">
           <ul className="nav navbar-nav">
-            <Link name="menu"/>
-            <Link name="reservation"/>
+            <Link name="Menu" />
+            <Link name="Reservation" />
           </ul>
         </nav>
       </div>
