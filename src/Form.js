@@ -20,6 +20,7 @@ class Form extends React.Component {
   render() {
     return (
       <div id="Reservation">
+      <h3> Make a Reservation </h3>
         <form>
           <FormGroup type="text" placeholder="First Name" />
           <FormGroup type="text" placeholder="Last Name" />
